@@ -1,0 +1,29 @@
+#whois{
+	padding-top: 182px; 
+	background-color: rgb(169, 0, 0);
+}
+.bg-color-com { background: rgb(169, 0, 0); }
+
+.navbar-brand img.default-logo{
+	height:150px;
+	width: auto;
+	margin: 0 auto;
+}
+.architecture-nav.navbar .navbar-nav { 
+	margin: 49px 0;
+}
+.one-page-header.architecture-nav .navbar-nav > li > a {
+	font-size: 14px;
+}
+/* When .top-nav-collapse is added */
+.architecture-nav.top-nav-collapse .navbar-brand, .architecture-nav.top-nav-collapse .navbar-nav > li > a, .architecture-nav.top-nav-collapse .navbar-nav > li > a:before {
+	font-size: 11px;
+}
+.architecture-nav.top-nav-collapse.navbar .navbar-nav { 
+	margin: 0;
+}
+.navbar-brand img.shrink-logo{
+	height: 50px;
+	width: auto;
+	margin-left: 100px;
+}
