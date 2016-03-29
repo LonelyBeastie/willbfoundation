@@ -1,5 +1,5 @@
 #whois{
-	padding-top: 182px; 
+	padding-top: 145px; 
 	background-color: rgb(169, 0, 0);
 }
 .bg-color-com { background: rgb(169, 0, 0); }
@@ -26,4 +26,21 @@
 	height: 50px;
 	width: auto;
 	margin-left: 100px;
+}
+@media (min-width : 320px) {
+	.navbar.architecture-nav > .container .navbar-brand.logo-left img { width:250px; height: auto; margin-left: 0px;}
+}
+@media (min-width: 992px){
+	.g-mt-70-flex { margin-top: 70px; }
+	.navbar.architecture-nav > .container .navbar-brand.logo-left img { width:140;}
+	div.padding-top-90px{ padding-top: 90px;}
+}
+
+.service-section .owl-carousel-v4 .owl-slider-v4 .item img {
+  width: auto;
+  max-height: 500px;
+}
+.content-md {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }

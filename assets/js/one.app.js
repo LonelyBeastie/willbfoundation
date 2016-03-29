@@ -132,7 +132,8 @@ var App = function() {
 
 		var $offset = 0;
 		if ($('.one-page-nav-scrolling').hasClass('one-page-nav__fixed')) {
-			$offset = $(".one-page-nav-scrolling").height()+8;
+			// $offset = $(".one-page-nav-scrolling").height()+8;
+			$offset = 68;
 		}
 		// jQuery for page scrolling feature - requires jQuery Easing plugin
 		$('.page-scroll a').bind('click', function(event) {
