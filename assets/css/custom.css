@@ -1,15 +1,15 @@
 #whois{
-	padding-top: 145px; 
+	padding-top: 145px;
 	background-color: rgb(169, 0, 0);
 }
 .bg-color-com { background: rgb(169, 0, 0); }
-
+.fa{color: #c74645;}
 .navbar-brand img.default-logo{
 	height:150px;
 	width: auto;
-	margin: 0 auto;
+	margin: -4px 0 auto;
 }
-.architecture-nav.navbar .navbar-nav { 
+.architecture-nav.navbar .navbar-nav {
 	margin: 49px 0;
 }
 .one-page-header.architecture-nav .navbar-nav > li > a {
@@ -19,7 +19,7 @@
 .architecture-nav.top-nav-collapse .navbar-brand, .architecture-nav.top-nav-collapse .navbar-nav > li > a, .architecture-nav.top-nav-collapse .navbar-nav > li > a:before {
 	font-size: 11px;
 }
-.architecture-nav.top-nav-collapse.navbar .navbar-nav { 
+.architecture-nav.top-nav-collapse.navbar .navbar-nav {
 	margin: 0;
 }
 .navbar-brand img.shrink-logo{
@@ -34,8 +34,11 @@
 	.g-mt-70-flex { margin-top: 70px; }
 	.navbar.architecture-nav > .container .navbar-brand.logo-left img { width:140;}
 	div.padding-top-90px{ padding-top: 90px;}
+	.navbar-brand img.default-logo{ margin-left: -50px;}
 }
-
+@media (min-width: 1200px){
+	.navbar-brand img.default-logo{ margin-left: auto;}
+}
 .service-section .owl-carousel-v4 .owl-slider-v4 .item img {
   width: auto;
   max-height: 500px;
