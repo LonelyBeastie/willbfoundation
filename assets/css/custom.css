@@ -5,6 +5,9 @@
 img.tiny-logo{
 	width: 45px;
 }
+.awards-desc img.dh{
+	margin-top: 35px;
+}
 .bg-color-com { background: rgb(169, 0, 0); }
 .fa{color: #c74645;}
 .navbar-brand img.default-logo{
