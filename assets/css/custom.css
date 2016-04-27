@@ -2,6 +2,9 @@
 	padding-top: 145px;
 	background-color: rgb(169, 0, 0);
 }
+img.tiny-logo{
+	width: 45px;
+}
 .bg-color-com { background: rgb(169, 0, 0); }
 .fa{color: #c74645;}
 .navbar-brand img.default-logo{
