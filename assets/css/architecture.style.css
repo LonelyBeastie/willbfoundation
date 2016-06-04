@@ -580,7 +580,7 @@ p {
 	position: relative;
 }
 .arch-service-1 {
-	background: url(../img-temp/exterior-design.jpg) no-repeat 80% 0 / cover;
+	/*background: url(../img-temp/exterior-design.jpg) no-repeat 80% 0 / cover;*/
 }
 .arch-service-2 {
 	background: url(../img-temp/interior-design.jpg) no-repeat 30% 0 / cover;
