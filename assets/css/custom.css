@@ -33,6 +33,9 @@ img.tiny-logo{
 	width: auto;
 	margin-left: 100px;
 }
+img.ind-img{
+	width: 100%;
+}
 @media (min-width : 320px) {
 	.navbar.architecture-nav > .container .navbar-brand.logo-left img { width:250px; height: auto; margin-left: 0px;}
 }
@@ -47,7 +50,11 @@ img.tiny-logo{
 }
 .service-section .owl-carousel-v4 .owl-slider-v4 .item img {
   width: auto;
-  max-height: 500px;
+  max-height: 300px;
+}
+.owl-carousel-v4.bottom-one .owl-slider-v4 .item img {
+  width: auto;
+  max-height: 480px;
 }
 .content-md {
   padding-top: 20px;
@@ -55,4 +62,33 @@ img.tiny-logo{
 }
 h2.h2.g-mb-30.e-board{
 	padding-bottom: 15px;
+}
+.one-page-header.top-nav-collapse {
+    box-shadow: 0 0 20px #c94645;
+}
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 321px) {
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.left-red-border{
+		border-left:  10px solid #c94645;
+		/*border-left: 0 0 20px #c94645;*/
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+@media only screen and (min-width : 1441px) {
+
 }
