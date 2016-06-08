@@ -1,6 +1,9 @@
 .one-page-nav-scrolling{background: #fff;}
 .one-page-header.architecture-nav .navbar-nav > li > a {color: black;}
 .one-page-header.top-nav-collapse {box-shadow: 0 0 5px rgb(169, 0, 0);}
+.arch-service-1 { background: none;}
+.icon-bar{color: black;}
+
 img.width100{width: 100% }
 #landing{padding-top: 145px;}
 img.tiny-logo{
@@ -16,9 +19,7 @@ img.tiny-logo{
 	width: auto;
 	margin: -4px 0 auto;
 }
-.architecture-nav.navbar .navbar-nav {
-	margin: 49px 0;
-}
+.architecture-nav.navbar .navbar-nav {margin: 0 0 0 0;}
 .one-page-header.architecture-nav .navbar-nav > li > a {
 	font-size: 14px;
 }
@@ -33,11 +34,16 @@ img.tiny-logo{
 	height: 50px;
 	width: auto;
 	margin-left: 100px;
+	margin-top: -8px;
 }
 @media (min-width : 320px) {
-	.navbar.architecture-nav > .container .navbar-brand.logo-left img { width:250px; height: auto; margin-left: 0px;}
+	.navbar.architecture-nav > .container .navbar-brand.logo-left img {
+		margin-left: 0px;
+		margin-top: 1px;
+	}
 }
 @media (min-width: 992px){
+	.architecture-nav.navbar .navbar-nav {margin: 49px 0;}
 	.g-mt-70-flex { margin-top: 70px; }
 	.navbar.architecture-nav > .container .navbar-brand.logo-left img { width:140;}
 	div.padding-top-90px{ padding-top: 90px;}
