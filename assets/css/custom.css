@@ -1,6 +1,7 @@
 .one-page-nav-scrolling{background: #fff;}
 .one-page-header.architecture-nav .navbar-nav > li > a {color: black;}
 .one-page-header.top-nav-collapse {box-shadow: 0 0 5px rgb(169, 0, 0);}
+img.width100{width: 100% }
 #landing{padding-top: 145px;}
 img.tiny-logo{
 	width: 45px;
