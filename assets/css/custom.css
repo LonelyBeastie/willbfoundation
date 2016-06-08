@@ -1,7 +1,6 @@
-#whois{
-	padding-top: 145px;
-	background-color: rgb(169, 0, 0);
-}
+.one-page-nav-scrolling{background: #fff;}
+.one-page-header.architecture-nav .navbar-nav > li > a {color: black;}
+#landing{padding-top: 145px;}
 img.tiny-logo{
 	width: 45px;
 }
