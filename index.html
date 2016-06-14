@@ -1,5 +1,6 @@
 ---
 layout: default
+page_name: index
 ---
   <!-- "Who Is Will B" -->
   <section id="landing">
@@ -293,95 +294,92 @@ layout: default
     </div>
   </section>
 
-  <!--Contact Section-->
-  <section id="contact">
+  <!--RSVP Section-->
+  <section id="rsvp">
     <div class="container content-md g-heading-v7 text-center">
-      <h2 class="h2 g-mb-70"><em class="block-name">Will B</em>Contact Us</h2>
+      <h2 class="h2 g-mb-70"><em class="block-name">Cocktails To Cure CF</em>RSVP</h2>
 
       <!-- form and contatc information -->
       <div class="row">
         <div class="col-md-9 col-sm-6 form no-side-padding">
-          <form action="#" method="post" id="sky-form3" class="sky-form contact-style">
-            <fieldset>
-              <div class="row margin-bottom-30">
-                <div class="col-md-6 col-md-offset-0">
-                  <div>
-                    <input type="text" name="name" id="name" class="form-control" placeholder="Your Name">
+              <!-- we are submitting the form to google forms who is storing information there (notification happens on the google document change) -->
+              <script type="text/javascript">var submitted=false;</script>
+              <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='thank-you.html';}"></iframe>
+              <form action="https://docs.google.com/forms/d/1hVX8Qr8fSvj5CBP8qb6lvqn-r0c2XmwCM1xMJTi1Oic/formResponse" method="post" target="hidden_iframe" id="mG61Hd" onsubmit="submitted=true;">
+              <!-- <form action="https://docs.google.com/forms/d/1hVX8Qr8fSvj5CBP8qb6lvqn-r0c2XmwCM1xMJTi1Oic/formResponse" target="_self" method="POST" id="mG61Hd"> -->
+                  <input type="hidden" jsname="YPqjbf" value="User Contact">
+                  <!-- <div class="form-group">
+                      <input id="email" type="email" class="form-control" placeholder="Email" name='entry.840419918' >
                   </div>
-                </div>
-                <div class="col-md-6 col-md-offset-0">
-                  <div>
-                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
+                  <div class="form-group">
+                      <input id="phone" type="phone-number" class="form-control" placeholder="Phone Number" name='entry.271163656' >
                   </div>
-                </div>
-              </div>
-
-              <div class="row margin-bottom-30">
-                <div class="col-md-6 col-md-offset-0">
-                  <div>
-                    <input type="text" name="email" id="email" class="form-control" placeholder="Email *">
+                  <div class="form-group">
+                      <textarea id="comments" cols="30" rows="10" class="form-control" placeholder="Comments" name='entry.516066528' ></textarea>
                   </div>
-                </div>
+                  <button type="submit" class="btn btn-primary btn-lg inverse">Submit</button> -->
 
-                <div class="col-md-6 col-md-offset-0">
-                  <div>
-                    <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject">
-                  </div>
-                </div>
-              </div>
+                  <fieldset>
+                    <div class="row margin-bottom-30">
+                      <div class="col-md-6 col-md-offset-0">
+                        <div>
+                          <input type="text" name="entry.1173194658" id="name" class="form-control" placeholder="Name">
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-md-offset-0">
+                        <div>
+                          <input type="text" name="entry.1133571768" id="phone" class="form-control" placeholder="Phone">
+                        </div>
+                      </div>
+                    </div>
 
-              <div class="row margin-bottom-30">
-                <div class="col-md-12 col-md-offset-0">
-                  <div>
-                    <textarea rows="4" name="message" id="message" class="form-control g-textarea-noresize" placeholder="Message"></textarea>
-                  </div>
-                </div>
-              </div>
+                    <div class="row margin-bottom-30">
+                      <div class="col-md-6 col-md-offset-0">
+                        <div>
+                          <input type="text" name="entry.1079777250" id="email" class="form-control" placeholder="Email">
+                        </div>
+                      </div>
 
-              <p><button type="submit" class="btn-u btn-u-lg btn-u-bg-default btn-u-upper">Send Message</button></p>
-            </fieldset>
+                      <div class="col-md-6 col-md-offset-0">
+                        <div>
+                          <input type="text" name="entry.1953921105" id="ticket" class="form-control" placeholder="Ticket Number">
+                        </div>
+                      </div>
+                    </div>
 
-            <div class="message">
-              <i class="rounded-x fa fa-check"></i>
-              <p>Your message was successfully sent!</p>
-            </div>
-          </form>
+                    <div class="row margin-bottom-30">
+                      <div class="col-md-12 col-md-offset-0">
+                        <div>
+                          <textarea rows="4" name="entry.1810085439" id="message" class="form-control g-textarea-noresize" placeholder="Address/Message"></textarea>
+                        </div>
+                      </div>
+                    </div>
+
+                    <p><button type="submit" class="btn-u btn-u-lg btn-u-bg-default btn-u-upper">RSVP Now!</button></p>
+                  </fieldset>
+              </form>
         </div>
 
         <div class="col-md-3 col-sm-6 contact-list">
-          <ul class="list-unstyled margin-bottom-30">
+          <!-- <ul class="list-unstyled margin-bottom-30">
             <li><span aria-hidden="true" class="icon-directions icon"></span></li>
              <li class="first-item">Address</li>
             <li class="second-item">Chicago, IL</li>
-          </ul>
+          </ul> -->
 
-          <ul class="list-unstyled margin-bottom-30">
+          <!-- <ul class="list-unstyled margin-bottom-30">
             <li><span aria-hidden="true" class="icon-call-in icon"></span></li>
             <li class="first-item">Phone number</li>
             <li class="second-item">888-888-8888</li>
-          </ul>
+          </ul> -->
 
           <ul class="list-unstyled margin-bottom-30">
             <li><span aria-hidden="true" class="icon-envelope-open icon"></span></li>
-            <li class="first-item">Email</li>
+            <li class="first-item">Email Us</li>
             <li class="second-item">thewillbfoundation@hotmail.com</li>
           </ul>
         </div>
       </div>
     </div>
-
-    <!-- copyrights -->
-    <div class="copyrights container-fluid bg-color-com page-scroll">
-      <div clas="container">
-        <a class="footer-logo" href="#whois">
-          <img class="img-responsive" src="assets/img/logo-light-copy.png" alt="Logo">
-        </a>
-        <ul class="list-inline footer-list">
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-        </ul>
-      </div>
-    </div>
+    {% include footer.html %}
   </section>

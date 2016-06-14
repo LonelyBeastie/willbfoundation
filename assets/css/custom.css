@@ -5,7 +5,8 @@
 .icon-bar{color: black;}
 
 img.width100{width: 100% }
-#landing{padding-top: 145px;}
+#landing{padding-top: 45px;}
+#thank_you{padding-top: 70px;}
 img.tiny-logo{
 	width: 45px;
 }
@@ -15,7 +16,7 @@ img.tiny-logo{
 .bg-color-com { background: rgb(169, 0, 0); }
 .fa{color: #c74645;}
 .navbar-brand img.default-logo{
-	height:150px;
+	/*height:150px;*/
 	width: auto;
 	margin: -4px 0 auto;
 }
@@ -47,7 +48,13 @@ img.tiny-logo{
 	.g-mt-70-flex { margin-top: 70px; }
 	.navbar.architecture-nav > .container .navbar-brand.logo-left img { width:140;}
 	div.padding-top-90px{ padding-top: 90px;}
-	.navbar-brand img.default-logo{ margin-left: -50px;}
+	.navbar-brand img.default-logo{
+		 margin-left: -50px;
+		 height:150px;
+	 }
+	#landing{padding-top: 145px;}
+	#thank_you{padding-top: 150px;}
+
 }
 @media (min-width: 1200px){
 	.navbar-brand img.default-logo{ margin-left: auto;}

@@ -22,10 +22,13 @@
             <div class="menu-container">
               <ul class="nav navbar-nav">
                 <li class="page-scroll">
-                  <a href="#events">2016 EVENTS</a>
+                  <a href="{% if page.page_name =='thank_you' %}index.html{% endif %}#events">EVENTS</a>
                 </li>
                 <li class="page-scroll">
-                  <a href="#donation">DONATE</a>
+                  <a href="{% if page.page_name =='thank_you' %}index.html{% endif %}#rsvp">RSVP</a>
+                </li>
+                <li class="page-scroll">
+                  <a href="{% if page.page_name =='thank_you' %}index.html{% endif %}#donation">DONATE</a>
                 </li>
               </ul>
             </div>
@@ -34,7 +37,7 @@
 
         <div class="col-md-4 no-side-padding xs-hidden">
           <div class="center-block logo page-scroll">
-            <a class="logo-link navbar-brand logo-centered" href="#landing">
+            <a class="logo-link navbar-brand logo-centered" href="{% if page.page_name =='thank_you' %}index.html{% endif %}#landing">
               <img class="default-logo" src="assets/img/logo-light-copy.png" alt="Logo">
               <img class="shrink-logo" src="assets/img/logo-dark.png" alt="Logo">
             </a>
@@ -46,13 +49,13 @@
             <div class="menu-container">
               <ul class="nav navbar-nav">
                 <li class="page-scroll">
-                  <a href="#whoiswillb">Who</a>
+                  <a href="{% if page.page_name =='thank_you' %}index.html{% endif %}#whoiswillb">Who</a>
                 </li>
                 <li class="page-scroll">
-                  <a href="#whatiswillb">What</a>
+                  <a href="{% if page.page_name =='thank_you' %}index.html{% endif %}#whatiswillb">What</a>
                 </li>
                 <li class="page-scroll">
-                  <a href="#whatiscf">CF</a>
+                  <a href="{% if page.page_name =='thank_you' %}index.html{% endif %}#whatiscf">CF</a>
                 </li>
               </ul>
             </div>
