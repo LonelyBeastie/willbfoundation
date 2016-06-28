@@ -7,6 +7,9 @@
 img.width100{width: 100% }
 #landing{padding-top: 45px;}
 #thank_you{padding-top: 70px;}
+ol.rules-regs li{
+	padding-bottom: 10px;
+}
 img.tiny-logo{
 	width: 45px;
 }
